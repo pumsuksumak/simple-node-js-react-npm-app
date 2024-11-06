@@ -5,6 +5,7 @@ pipeline {
             steps{
                 bat 'npm install'
             }
+        }
         stage('Script'){
             steps{
                 echo 'Start Executing'
@@ -29,4 +30,3 @@ pipeline {
         }
         }
     }
-}
